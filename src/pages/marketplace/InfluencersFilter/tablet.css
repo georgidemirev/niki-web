@@ -1,0 +1,8 @@
+/* *** Style Sheet for InfluencersFilter only for tablet *********************************** */
+
+@media only screen and (min-width: 767px) { 
+	.searchForm .tablet {
+		display: inline-block;
+		
+	}
+}

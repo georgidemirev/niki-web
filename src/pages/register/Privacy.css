@@ -1,0 +1,31 @@
+ul {
+	text-align: left;
+}
+.privacy__card li {
+	 margin-top: 1vw;
+  text-indent: 5px;
+}
+
+p.privacy.nomargin {
+	margin: 0;
+	margin-left: 2vw;
+
+}
+
+p.privacy, blockquote {
+	text-align: left;
+}
+
+blockquote {
+	padding: 2vw;
+	background-color: rgb(196, 196, 196, .2);
+	border-left: 3px solid rgb(196, 196, 196)
+}
+
+blockquote > p {
+
+}
+
+a {
+	overflow-wrap: anywhere;
+}

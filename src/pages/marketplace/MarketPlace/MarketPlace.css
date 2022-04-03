@@ -1,0 +1,134 @@
+/* *** Style Sheet for Marketplace Default *********************************** */
+
+@import "./mobile.css";
+
+@import "./tablet.css";
+
+@import "./web.css";
+
+
+.searchForm {
+	background-color: #F9FAFF;
+	padding: 3.7%;
+	border-radius: 8px;
+}
+
+.influencers {
+	margin-left: 1.5vw;
+	display: grid;
+	grid-template-rows: 0.2fr 1.7fr 0.3fr;
+	max-height: 80vh;
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	 height: 100%;
+	 padding-right: 2rem;
+
+}
+.main__row {
+	overflow-y: scroll;
+}
+
+.main__content {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2,1fr);
+	column-gap: .5rem;
+	grid-row-gap: 1rem;
+	row-gap: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+}
+
+.footer__row {
+	display: grid;
+	align-content: end;
+}
+.footer__content {
+	display: flex;
+	align-items: center;
+	padding-right: 2rem;
+}
+
+.searchForm .MuiFormControl-root {
+	width: 100%;
+}
+
+.searchForm .MuiFormControlLabel-root {
+	margin-right: 0!important;
+}
+
+.infleuncers-container > div {
+	box-sizing: border-box;
+}
+
+.hideBar__div .MuiAppBar-root {
+	height: 55px;
+}
+
+.hideBar__div .MuiAppBar-colorPrimary {
+	background-color: #FBF0FF;
+}
+
+.hideBar__div .MuiAppBar-positionFixed {
+	position: unset;
+}
+
+.hideBar__div .MuiPaper-elevation4 {
+	box-shadow: none;
+}
+
+.tooltip-content {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	box-sizing: border-box;
+}
+
+
+.filter__button {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+
+.filter__button > div, .sortby__button > div {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+
+.sortby__button {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.no-influencers__conrainer {
+	padding: 3.7%;
+}
+
+ul li.pagination-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-width: 16px;
+	height: 16px;
+	border-radius: 4px;
+	margin-left: 1%;
+	border: 1px solid #c1c1c1;
+}
+
+ul li.pagination-item.active {
+	background-color: #fff!important;
+	color: #8D06FF;
+	border-color: #8D06FF;
+}

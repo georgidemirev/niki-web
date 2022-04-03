@@ -1,0 +1,27 @@
+
+@import 'mobile.css';
+@import 'tablet.css';
+@import 'web.css';
+
+.campaign-detail_title {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(60, 63, 68, 0.1);
+}
+
+.campaign-detail_buttons {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.influencer-cards__container {
+	width: 100%;
+	box-sizing: border-box;
+	display: grid;
+	row-gap: 20px;
+}

@@ -1,0 +1,72 @@
+/* *** Style Sheet for CampaignsTable only for mobile *********************************** */
+@media screen and (max-width: 766px) {
+	
+	.CampaignTable .web {
+		display: none;
+	}
+	
+	.web  svg {
+		display: none!important;
+	}
+	
+	.campaign-table {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	
+	.table-row {
+		padding: 3.7%;
+		width: 100%;
+		box-sizing: border-box;
+		background-color: #fff;
+		box-shadow: -14px -14px 20px rgba(209, 217, 230, 0.08), 14px 14px 20px rgba(209, 217, 230, 0.3);
+		margin-bottom: 7%;
+	}
+	
+	.campaign-title__div {
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.campaign-data {
+		/* display: grid; */
+		/* grid-template-columns: 40% 60%; */
+	}
+	
+	.campaign-data .row-data {
+		/* width: 100%; */
+		display: grid;
+		grid-template-columns: 34% 60%;
+		column-gap: 15px;
+		box-sizing: border-box;
+	}
+	
+	.row-data span.table-td {
+		align-self: center;
+		justify-self: baseline;
+	}
+	
+	.row-data span.table-hd {
+		justify-self: baseline;
+	}
+	
+	.campaign-data .header {
+		display: grid;
+		grid-template-rows: auto;
+		row-gap: 12px;
+		margin-top: 3.7%;
+	}
+	
+	.campaign-data .row-data {
+		display: grid;
+		grid-template-rows: auto;
+		row-gap: 12px;
+		margin-top: 3.7%;
+	}
+}

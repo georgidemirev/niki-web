@@ -1,0 +1,108 @@
+@import 'mobile.css';
+@import 'tablet.css';
+@import 'web.css';
+
+.Creatives {
+	display: grid;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.creative-metrics {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 7.4%;
+	align-items: stretch;
+	padding-top: 3.7%;
+	padding-bottom: 3.7%;
+	row-gap: 15px;
+}
+.metrics-modal {
+	justify-content: space-between;
+	padding: 0.5%;
+}
+
+.MetricItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.CreativeModalView .close-icon { 
+	margin-bottom: 3.7%;
+}
+	
+/* copied code from https://codepen.io/amdouglas/pen/eBddBd */
+.cell {
+  display: flex;
+  font-size: 16px;
+  font-size: 1rem;
+  position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	align-self: center;
+}
+
+/* 
+  This is the first key to making squares! 
+  The padding value of 100% equates 100% of the parent's width,
+  which means that as long as we position the content of the
+  square absolutely and take it out of flow, it will appear as a
+  perfect square.
+*/
+.cell:after {
+  padding-bottom: 100%;
+  display: block;
+  content: '';
+}
+
+/* 
+  Here's the second key: the content element is where you'll put 
+  your video, your text, or whatever.
+  This needs to stretch to fill the parent, which you can do 
+  either by using height: 100%; width: 100%, or, for more precise 
+  control, use top/left/bottom/right like so:
+*/
+.content {
+  position: absolute;
+	top: 3.7%;
+	left: 2.5%;
+	right: 2.5%;
+	bottom: 0%;
+	padding: 3.7%;
+	border-radius: 4px;
+  overflow: hidden; /* <-- THIS IS CRUCIAL IF YOU INTEND TO PUT VIDEOS OR IMAGES IN SQUARELY */
+	
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0)
+}
+
+/* 
+  To make the video appear squarely, first center it with the
+  good ol' top/left/transformX/Y trick, then set 
+  `max-width: 100%; min-height: 100%` if your videos are landscape 
+  aspect-ratio and vice versa for portrait videos. 
+  If your content is going to be unpredictable in aspect-ratio, you 
+  could use JavaScript for this bit, or emit size-specific CSS classes in   
+  your server-side templates if you're not making an SPA.
+*/
+.content > video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 100%;
+  min-height: 100%;
+  /*
+    You can also use object-fit: cover; object-position: center;
+    instead of the position/transform hack, but IE doesn't support this,
+    and pre-iOS10 Safari doesn't support object-position, so:
+  */
+}
+/* end copied code */

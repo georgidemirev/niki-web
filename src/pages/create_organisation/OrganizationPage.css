@@ -1,0 +1,60 @@
+
+.App-Content_wrapper .organization-form__container { 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* Overwrite Mui Styles */
+.Mui-focused fieldset {
+	border-color:  rgba(60, 63, 68, 0.2)!important
+}
+
+
+label.MuiInputLabel-outlined.Mui-focused {
+	color: rgba(60, 63, 68, 0.7)!important
+}
+
+.organization-form__container .buttons__div > .MuiFormControlLabel-root > .MuiTypography-root{
+	font-family: 'Fira Sans', sans-serif!important;
+	color: rgba(60, 63, 68, 0.7) ;
+}
+
+.organization-form__container .MuiFormControl-root {
+	min-width: 100%;
+}
+
+.CreateOrganizationForm .buttons__div {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: 3.7%;
+}
+.CreateOrganization2Form .buttons__div {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: 3.7%;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 766px) {
+	.organization-form__container {
+		width: 100%
+	}
+}
+
+/* Mobile Tablets */
+@media only screen and (min-width: 767px) {
+	.organization-form__container {
+		min-width: 35%
+	}
+}
+/* Web */
+@media only screen and (min-width: 1100px) {
+ 
+}

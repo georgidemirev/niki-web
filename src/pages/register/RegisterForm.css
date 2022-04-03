@@ -1,0 +1,63 @@
+.input-field_container {
+	margin-top: 3.7%!important;
+}
+
+.channel__input-fields__container {
+	display: grid;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+@media screen and (max-width: 766px) {
+	.register-form__card .categories-grid__container {
+		width: 100%;
+		display: grid;
+		grid-template-rows: auto;
+	}
+	
+	.register-form__card .input-fields__container {
+		display: grid;
+		width: 100%;
+		/* grid-template-columns: repeat(2, 1fr); */
+		column-gap: 15px;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (min-width: 767px) { 
+	.register-form__card .categories-grid__container {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 1rem;
+	}
+}
+
+@media only screen and (min-width: 1100px) { 
+	.register-form__card {
+		width: 60% ;
+	}
+	
+	.register-form__card .input-field_container {
+		width: 48%;
+	}
+	
+	.channel__input-fields__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 3.7%;
+	}
+	
+	.channel__input-fields__container .input-field_container {
+		width: 100%;
+	}
+	
+	.register-form__card .input-fields__container {
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 15px;
+		box-sizing: border-box;
+	}
+	
+}
