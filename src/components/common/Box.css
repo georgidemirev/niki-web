@@ -1,0 +1,49 @@
+/******* DEFAULT STYLE **********/
+
+.box.vertical {
+	flex-direction: column;
+}
+
+.box.horizontal {
+	flex-direction: row;
+}
+
+@media screen and (min-width: 300px) {
+	.box {
+		flex-direction: column!important;
+		justify-content: flex-start;
+	}	
+	
+	.box.checkbox {
+		flex-direction: row!important;
+		flex-wrap: nowrap!important;
+		text-align: left;
+	}
+	
+	.box.checkbox > span {
+		font-size: 0.8em;
+	}
+	
+}
+
+@media screen and (min-width: 550px) {
+	.box {
+		flex-direction: column;
+		justify-content: flex-start;
+	}	
+	
+}
+
+@media screen and (min-width: 768px) {
+	.box.horizontal {
+		flex-direction: row!important;
+	}	
+	
+	.box.button {
+		justify-content: flex-end!important;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	
+}
