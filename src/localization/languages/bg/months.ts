@@ -1,0 +1,28 @@
+import { MonthsTranslation } from '../../lang_types/months';
+
+export const monthsTranslation: MonthsTranslation = {
+    January: 'Януари',
+    February: 'Февруари',
+    March: 'Март',
+    April: 'Април',
+    May: 'Май',
+    June: 'Юни',
+    July: 'Юли',
+    August: 'Август',
+    September: 'Септември',
+    October: 'Октомври',
+    November: 'Ноември',
+    December: 'Декември',
+    jan: 'ян.',
+    feb: 'февр.',
+    mar: 'март',
+    apr: 'апр.',
+    may: 'май',
+    jun: 'юни',
+    jul: 'юли',
+    aug: 'авг.',
+    sep: 'септ.',
+    oct: 'окт.',
+    nov: 'ноем.',
+    dec: 'дек.',
+};

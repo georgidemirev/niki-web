@@ -1,0 +1,27 @@
+import { CategoriesTranslation } from '../../lang_types/categories';
+
+export const categoriesTranslation: CategoriesTranslation = {
+    fashion_and_beauty: 'Мода и Красота',
+    health_and_fitness: 'Здраве и Фитнес',
+    food_and_drinks: 'Храна и Напитки',
+    lifestyle: 'Lifestyle',
+    family: 'Семейство',
+    interior_design: 'Интериорен Дизайн',
+    entertainment: 'Забавление',
+    inspiration: 'Вдъхновение',
+    travel: 'Пътувания',
+    technology: 'Технология',
+    animals: 'Животни',
+    diy_and_craft: 'Направи си сам и Занаяти',
+    art: 'Изкуство',
+    photography: 'Фотография',
+    design: 'Дизайн',
+    outdoors: 'На открито',
+    hobbies_and_interests: 'Хобита & Интереси',
+    sports: 'Спорт',
+    gaming: 'Гейминг',
+    esports: 'Е-Спорт',
+    comedy: 'Комедия',
+    films_music_books: 'Филми, Музика, Книги',
+    business_and_entrepreneurship: 'Бизнес & Предприемачество',
+};

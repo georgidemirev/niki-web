@@ -1,0 +1,28 @@
+import { MonthsTranslation } from '../../lang_types/months';
+
+export const monthsTranslation: MonthsTranslation = {
+    January: 'Enero',
+    February: 'Febrero',
+    March: 'Marzo',
+    April: 'Abril',
+    May: 'Mayo',
+    June: 'Junio',
+    July: 'Julio',
+    August: 'Agosto',
+    September: 'Septiembre',
+    October: 'Octubre',
+    November: 'Noviembre',
+    December: 'Diciembre',
+    jan: 'Ene',
+    feb: 'Feb',
+    mar: 'Mar',
+    apr: 'Abr',
+    may: 'May',
+    jun: 'Jun',
+    jul: 'Jul',
+    aug: 'Ago',
+    sep: 'Sep',
+    oct: 'Oct',
+    nov: 'Nov',
+    dec: 'Dic',
+};

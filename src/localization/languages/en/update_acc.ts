@@ -1,0 +1,36 @@
+import { UpdateAccTranslation } from 'localization/lang_types/update_acc';
+
+export const updateAccTranslation: UpdateAccTranslation = {
+    user_account: 'User Account',
+    create_organization: 'Create Organization',
+    change_password: 'Change Password',
+    name: 'Name',
+    name_placeholder: 'Name',
+    email: 'Email',
+    email_placeholder: 'example@email.com',
+    phone_number: 'Phone Number',
+    phone_placeholder: 'Optional phone number',
+    update_profile: 'Update profile',
+    log_out: 'Log out',
+    bio: 'Bio',
+    placeholder_bio: 'Add short bio about yourself',
+    categories: 'Categories',
+    channels: 'Channels',
+    topics: 'Topics',
+    placeholder_topics: 'Press Enter to add topics',
+    city: 'City',
+    placeholderCity: 'Sofia',
+    country: {
+        label: 'Country',
+        bulgaria: 'Bulgaria',
+        spain: 'Spain',
+    },
+    placeholderCountry: 'Bulgaria',
+    average_price_for_one_post: 'Average price per post',
+    average_price_for_one_story: 'Average price per story',
+    average_price_for_one_video: 'Average price per video',
+    tooltip_text:
+        'You will have to add your topics as tags, so your profile page looks better. Add your tags by pressing "Enter" after each tag.',
+    press_enter_tags: 'Press Enter to add tags',
+    least_one_category: 'You have to have at least one category selected',
+};

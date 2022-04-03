@@ -1,0 +1,36 @@
+import { UpdateAccTranslation } from 'localization/lang_types/update_acc';
+
+export const updateAccTranslation: UpdateAccTranslation = {
+    user_account: 'Потребителски акаунт',
+    create_organization: 'Създай организация',
+    change_password: 'Промени парола',
+    name: 'Име',
+    name_placeholder: 'Име',
+    email: 'Имейл',
+    email_placeholder: 'example@email.com',
+    phone_number: 'Телефонен номер',
+    phone_placeholder: 'Телефонен номер (Незадължителен)',
+    update_profile: 'Актуализиране',
+    log_out: 'Изход',
+    city: 'Град',
+    placeholderCity: 'София',
+    country: {
+        label: 'Държава',
+        bulgaria: 'България',
+        spain: 'Испания',
+    },
+    placeholderCountry: 'България',
+    average_price_for_one_post: 'Средна цена за пост',
+    average_price_for_one_story: 'Средна цена за стори',
+    average_price_for_one_video: 'Средна цена за видео',
+    bio: 'Био',
+    placeholder_bio: 'Добавете краткa биография за вас',
+    topics: 'Теми',
+    placeholder_topics: 'Натисни Enter за да добавиш теми',
+    categories: 'Добавете категория',
+    channels: 'Канали',
+    tooltip_text:
+        'Ако искате профила Ви да изглежда по-добре, може да добавите теми като тагове. След всеки написан таг натиснете "Enter" за да го запаметите.',
+    press_enter_tags: 'Натиснете "Enter" за да добавите таг.',
+    least_one_category: 'Трябва да изберете поне една категория.',
+};

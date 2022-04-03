@@ -1,0 +1,28 @@
+import { MarketplaceTranslation } from 'localization/lang_types/marketplace';
+
+export const marketplaceTranslation: MarketplaceTranslation = {
+    filter_by: 'Филтриране по',
+    keyword: 'Ключови думи',
+    category: 'Категория',
+    channel: 'Канал/социална медия',
+    any: 'Всички',
+    audience_age: 'Възраст на аудитория',
+    audience_gender: 'Пол на аудитория',
+    not_connected: 'Несвързани',
+    not_approved: 'Непотвърдени',
+    search: 'Търсене',
+    sort_by: 'Сортиране по',
+    followers: 'Последователи',
+    eng_rate: 'Ангажираност',
+    newest: 'Най-нови',
+    looking_influencer: 'Не можете да намерите инфлуенсърите, които търсите?',
+    invite: 'Поканете Инфлуенсър',
+    clear: 'Изчисти',
+    male: 'Мъже',
+    female: 'Жени',
+    influencers: 'Инфлуенсъри',
+    clear_all: 'Изчисти всичко',
+    search_placeholder: 'Търси по име',
+    discover: 'Търсене',
+    filter: 'Филтър',
+};

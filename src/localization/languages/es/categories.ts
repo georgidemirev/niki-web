@@ -1,0 +1,27 @@
+import { CategoriesTranslation } from '../../lang_types/categories';
+
+export const categoriesTranslation: CategoriesTranslation = {
+    fashion_and_beauty: 'Moda y Belleza',
+    health_and_fitness: 'Salud y Fitness',
+    food_and_drinks: 'Comidas y Bebidas',
+    lifestyle: 'Estilo de vida',
+    family: 'Familia',
+    interior_design: 'Diseño de Interiores',
+    entertainment: 'Entretenimiento',
+    inspiration: 'Inspiración',
+    travel: 'Viajes',
+    technology: 'Tecnología',
+    animals: 'Animales',
+    diy_and_craft: 'Manualidades',
+    art: 'Arte',
+    photography: 'Fotografía',
+    design: 'Diseño',
+    outdoors: 'Aire libre',
+    hobbies_and_interests: 'Hobbies',
+    sports: 'Deportes',
+    gaming: 'Gaming',
+    esports: 'Esports',
+    comedy: 'Comedia',
+    films_music_books: 'Cine, Música, Libros',
+    business_and_entrepreneurship: 'Negocios y emprendimiento',
+};
