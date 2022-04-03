@@ -1,8 +1,0 @@
-
-/* Web (from iPad Pro 10.5" until web)*/
-@media only screen and (min-width: 1365px) {  
-	.influencer-cards__container {
-		grid-template-columns: repeat(6, 1fr);
-		column-gap: 2.5%;
-	}
-}

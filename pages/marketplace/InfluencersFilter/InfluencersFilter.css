@@ -1,8 +1,0 @@
-@import "./mobile.css";
-@import "./tablet.css";
-@import "./web.css";
-
-
-span.label {
-    font-size: 0.85em;
-}
