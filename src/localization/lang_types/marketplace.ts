@@ -1,0 +1,26 @@
+export type MarketplaceTranslation = {
+    filter_by: string;
+    filter: string;
+    keyword: string;
+    category: string;
+    channel: string;
+    any: string;
+    audience_age: string;
+    audience_gender: string;
+    male: string;
+    female: string;
+    not_connected: string;
+    not_approved: string;
+    search: string;
+    influencers: string;
+    sort_by: string;
+    followers: string;
+    eng_rate: string;
+    newest: string;
+    looking_influencer: string;
+    invite: string;
+    clear: string;
+    clear_all: string;
+    search_placeholder: string;
+    discover: string;
+};

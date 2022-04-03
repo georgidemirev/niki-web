@@ -1,0 +1,25 @@
+export type CategoriesTranslation = {
+    fashion_and_beauty: string;
+    health_and_fitness: string;
+    food_and_drinks: string;
+    lifestyle: string;
+    family: string;
+    interior_design: string;
+    entertainment: string;
+    inspiration: string;
+    travel: string;
+    technology: string;
+    animals: string;
+    diy_and_craft: string;
+    art: string;
+    photography: string;
+    design: string;
+    outdoors: string;
+    hobbies_and_interests: string;
+    sports: string;
+    gaming: string;
+    esports: string;
+    comedy: string;
+    films_music_books: string;
+    business_and_entrepreneurship: string;
+};

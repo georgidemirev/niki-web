@@ -1,0 +1,26 @@
+export type MonthsTranslation = {
+    January: string;
+    February: string;
+    March: string;
+    April: string;
+    May: string;
+    June: string;
+    July: string;
+    August: string;
+    September: string;
+    October: string;
+    November: string;
+    December: string;
+    jan: string;
+    feb: string;
+    mar: string;
+    apr: string;
+    may: string;
+    jun: string;
+    jul: string;
+    aug: string;
+    sep: string;
+    oct: string;
+    nov: string;
+    dec: string;
+};

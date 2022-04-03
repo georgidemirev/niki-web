@@ -1,0 +1,21 @@
+export type CreativesUploadEditTranslation = {
+    edit_creative: string;
+    upload_asset: string;
+    best_sizes: string;
+    square: string;
+    portrait: string;
+    landscape: string;
+    post_date: string;
+    choose_date: string;
+    hashtags: string;
+    hashtags_placeholder: string;
+    mentions: string;
+    mentions_placeholder: string;
+    post_caption: string;
+    caption_placeholder: string;
+    notes: string;
+    notes_placeholder: string;
+    update_creative: string;
+    edit: string;
+    comment: string;
+};
