@@ -1,0 +1,53 @@
+/* *** Style Sheet for Marketplace only for mobile *********************************** */
+
+@media screen and (max-width: 766px) {
+	.Marketplace .web {
+		display: none;
+	}
+	.Marketplace {
+		display: grid;
+		box-sizing: border-box;
+		position: relative;
+	}
+	
+/* ******* Overriding pagination-list styles */
+	.styles_kPagination__1qVvD {
+		padding: unset
+	}
+	
+	.paglist__container {
+		display: grid;
+		box-sizing: border-box;
+		position: relative;
+		overflow-wrap: anywhere;
+		overflow-y: scroll;
+		/* background-color: #F9FAFF; */
+		padding-bottom: 10%;
+	}
+	
+	.paglist__container > div {
+		/* background-color: antiquewhite; */
+		display: flex;
+		justify-content: center;
+		margin-top: 3.7%!important;
+	}
+	
+	.paglist__container > ul {
+		margin-top: 3.7%!important;
+	}
+	
+	.paglist__container .boAyTj {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 16px;
+		height: 16px;
+		text-align: center;
+		border-radius: 4px;
+	}
+	
+	.no-influencers__conrainer .Card span  {
+		text-align: center;
+	}
+	
+}

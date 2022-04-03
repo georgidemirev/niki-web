@@ -1,0 +1,279 @@
+.App_ {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	/* min-height: 100vh; */
+	box-sizing: border-box;
+	font-family: "Fira Sans", sans-serif;
+}
+/* Wraps each page view */
+.App-Content_wrapper {
+	height: 100%;
+	padding-top: 3.76%;
+	padding-bottom: 3.76%;
+	box-sizing: border-box;
+}
+
+.App-Content_wrapper.card-centered {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.header_ {
+	z-index: 1;
+}
+
+.content_ {
+	min-height: 80vh;
+}
+
+/*********** Responsive ***********************/
+@media only screen and (max-width: 766px) {
+	.gradient-container {
+		background: linear-gradient(180deg,#F9FAFF 100%, #fff 0, #fff 100%)!important;
+	}
+	
+	.gradient-container.gradient-row-35 {
+		background: linear-gradient(180deg,#F9FAFF 100%, #fff 0, #fff 100%)!important;
+	}
+	
+	.gradient-container.gradient-row-45 {
+		background: linear-gradient(180deg,#F9FAFF 100%, #fff 0, #fff 100%)!important;
+	}
+	
+	
+	.gradient-container.gradient-row-55 {
+		background: linear-gradient(180deg,#F9FAFF 100%, #fff 0, #fff 100%)!important;
+	}
+	
+	.gradient-container.gradient-row-62 {
+		background: linear-gradient(180deg,#F9FAFF 100%, #fff 0, #fff 100%)!important;
+	}
+
+	.tooltip p.tooltipText {
+		visibility: hidden;
+	  width: 320px;
+	  background-color: rgb(251, 240, 255);
+	  color: rgb(60, 63, 68, .8);
+	  text-align: left;
+	  border-radius: 6px;
+		padding: 15px;
+		margin-left: 1%;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 0;
+		
+		/* Position the tooltip */
+		 position: bottom-start;
+		 z-index: 1;
+	}
+	
+	.tooltip:hover .tooltipText {
+	  visibility: visible;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.App-Content_wrapper {
+		padding-left: 3.7%;
+		padding-right: 5%;
+	}
+	
+	.gradient-container {
+		background: linear-gradient(180deg,#F9FAFF 50vh, #fff 0, #fff 100%)!important;
+	}
+	
+	.gradient-container.gradient-row-35 {
+		background: linear-gradient(180deg,#F9FAFF 35vh, #fff 0, #fff 100%)!important;
+	}
+	
+	.gradient-container.gradient-row-45 {
+		background: linear-gradient(180deg,#F9FAFF 45vh, #fff 0, #fff 100%)!important;
+	}
+	
+	
+	.gradient-container.gradient-row-55 {
+		background: linear-gradient(180deg,#F9FAFF 55vh, #fff 0, #fff 100%)!important;
+	}
+	
+	.gradient-container.gradient-row-62 {
+		background: linear-gradient(180deg,#F9FAFF 62vh, #fff 0, #fff 100%)!important;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+
+	.tooltip p.tooltipText {
+		visibility: hidden;
+	  width: 320px;
+	  background-color: rgb(251, 240, 255);
+	  color: rgb(60, 63, 68, .8);
+	  text-align: left;
+	  border-radius: 6px;
+		padding: 15px;
+		margin-left: 1%;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 0;
+		
+		/* Position the tooltip */
+		 position: absolute;
+		 z-index: 1;
+	}
+	
+	.tooltip:hover .tooltipText {
+	  visibility: visible;
+	}
+
+}
+
+/********* Default styles utils *********/
+
+h1, h2, h3, h4, h5 {
+  font-family: "Fira Sans", sans-serif !important;
+	color: #3c3f44;
+	text-align: left;
+}
+
+span.title {
+  font-family: "Fira Sans", sans-serif !important;
+  color: #3c3f44;
+  font-size: 22px;
+}
+
+span.subtitle {
+	font-family: "Fira Sans", sans-serif !important;
+  color: #3c3f44;
+  font-size: 18px;
+}
+
+ul, p.text, span.text {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+	color: #3c3f44;
+	text-align: left;
+}
+
+p {
+	line-height: 1.8;
+}
+
+p.bright, span.bright {
+	opacity: 0.6;
+}
+
+span.bold_500 {
+  font-weight: 700;
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+span.thin {
+  font-weight: 100;
+}
+
+span.label {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.134em;
+  line-height: 1.134em;
+  color: #3c3f44;
+}
+
+span.label.nomargin {
+	margin-bottom: 0px!important;
+}
+
+span.gradient {
+  background: -webkit-linear-gradient(right, #8d06ff, #d100ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+svg.gradient {
+	color: -webkit-linear-gradient(#D100FF, #8D06FF)!important;
+	fill: url(#purpleGradient) #D100FF!important;
+}
+
+svg.insta_icon {
+	color: -webkit-linear-gradient(45deg, #FFC107 14.65%, #F44336 50.49%, #9C27B0 84.65%)!important;
+	fill: url(#instaGradient)!important;
+}
+.animate-fadein-1_5s {
+	animation: 'fadeIn';
+	animationDuration: '1.5s' ;
+}
+
+.animate-fadein-3s {
+	animation: 'fadeIn';
+	animationDuration: '3s' ;
+}
+/* .gradient-container {
+	background: linear-gradient(180deg,#F9FAFF 50vh, #fff 0, #fff 100%)!important;
+}
+
+.gradient-container.gradient-row-35 {
+	background: linear-gradient(180deg,#F9FAFF 35vh, #fff 0, #fff 100%)!important;
+}
+
+.gradient-container.gradient-row-45 {
+	background: linear-gradient(180deg,#F9FAFF 45vh, #fff 0, #fff 100%)!important;
+}
+
+
+.gradient-container.gradient-row-55 {
+	background: linear-gradient(180deg,#F9FAFF 55vh, #fff 0, #fff 100%)!important;
+}
+
+.gradient-container.gradient-row-62 {
+	background: linear-gradient(180deg,#F9FAFF 62vh, #fff 0, #fff 100%)!important;
+} */
+
+.border {
+	border: 1px solid magenta;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.errorField {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(141, 6, 255, .54);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(141, 6, 255, .54);
+	box-shadow: 0px 0px 10px 0px rgba(141, 6, 255, .54);
+	border-radius: 4px;
+	border: rgba(141, 6, 255, .54) 1px solid;
+}
+
+.errorCheckbox > .MuiIconButton-label {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(141, 6, 255, .54);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(141, 6, 255, .54);
+	box-shadow: 0px 0px 10px 0px rgba(141, 6, 255, .54);
+	border-radius: 4px;
+	border: rgba(141, 6, 255, .54) 1px solid;
+}
+
+.tooltip p.tooltipText {
+	visibility: hidden;
+  width: 320px;
+  background-color: rgb(251, 240, 255);
+  color: rgb(60, 63, 68, .8);
+  text-align: left;
+  border-radius: 6px;
+	padding: 15px;
+	margin-left: 1%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	
+	/* Position the tooltip */
+	 position: absolute;
+	 z-index: 1;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}

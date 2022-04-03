@@ -1,0 +1,24 @@
+.VCard {
+	display: flex;
+	justify-content: flex-start;
+	box-sizing: border-box;
+}
+
+/* ************* Mobile small screen **************** */
+@media screen and (max-width: 766px) {
+	/* .VCard .mobile.invite-btn__container 
+	.vcard-container {
+		flex-direction: column;
+		padding: 3.7%;
+	}
+	
+	.vcard-container .info-right {
+		margin-left: 3.7%;
+		display: grid;
+		row-gap: 2vh;
+	} */
+}
+
+@media only screen and (min-width: 767px) {
+	
+}

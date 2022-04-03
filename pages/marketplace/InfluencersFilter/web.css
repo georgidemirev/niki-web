@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1100px) { 
+	.searchForm {
+		background-color: #F9FAFF;
+		box-shadow:
+		1px 1px 20px rgba(209, 217, 230, 0.4),
+		-18px -18px 20px rgba(209, 217, 230, 0.08);
+		border-radius: 8px;
+		padding: 3.7%;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.filter-close {
+		display: none;
+	}
+
+}

@@ -1,0 +1,100 @@
+@media screen and (max-width: 766px) {
+	
+	.InfluencerProfilePage .web{
+		display: none;
+	}
+	
+	.InfluencerProfilePage .web *{ 
+		display: none;
+	}
+	
+	.InfluencerProfilePage .VCard-hbox {
+		display: grid;
+		grid-template-columns: 20% 80%!important;
+		width: 100%;
+		padding: 3.7%;
+	}
+
+	.InfluencerProfilePage .info-container {
+		flex-direction: column;
+		align-items: baseline;
+	}
+	
+	.InfluencerProfilePage .info-container div span:nth-child(1) { /* <span> {categories} </span> */
+		margin-bottom: 1.7%;
+	}
+	
+	.InfluencerProfilePage .vcard__right-container {
+		margin-left: 3.7%;
+		display: grid;
+		row-gap: 2vh;
+	}
+	
+	.InfluencerProfilePage .topics-cats__container .categories_hbox {
+		
+	}
+	
+	.InfluencerProfilePage .about__container {
+		padding: 3.7%;
+		box-sizing: border-box;
+	}
+	.InfluencerProfilePage .report {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		background-color: #fff;
+		padding: 3.7%;
+		/* border: 1px solid green; */
+	}
+	
+	.InfluencerProfilePage .report span:nth-child(2) {
+		margin-top: 3.7%; 
+		color: rgba(60, 63, 68, 0.6);
+	}	
+	
+	.InfluencerProfilePage .Card.topics-card {
+		box-shadow: 14px 14px 20px rgba(209, 217, 230, 0.3), -14px -14px 20px rgba(209, 217, 230, 0.08)!important;
+	}
+	
+	.InfluencerProfilePage .topic-card__content .topics-container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin-top: 3.7%;
+		flex-wrap: wrap;
+	}
+	
+	.InfluencerProfilePage .Card.prices-card {
+		display: flex;
+		flex-direction: column;
+		box-shadow: 14px 14px 20px rgba(209, 217, 230, 0.3), -14px -14px 20px rgba(209, 217, 230, 0.08)!important;
+		padding: 3.7%;
+	}
+	
+	.InfluencerProfilePage .price-container .prices {
+		margin-top: 3.7%;
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 15px;
+	}
+	
+	.InfluencerProfilePage .price-container .price-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: baseline;
+		align-items: stretch;
+	}
+	.top-tags > div div {
+		flex-direction: row!important;
+	}
+	
+	.ChartSection {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.action-buttons {
+		width: 100%!important
+	}
+}

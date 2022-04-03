@@ -1,0 +1,7 @@
+@media screen and (max-width: 766px) {
+	.user-profile_form .categories-grid__container {
+			width: 100%;
+			display: grid;
+			grid-template-rows: auto;
+		}
+}

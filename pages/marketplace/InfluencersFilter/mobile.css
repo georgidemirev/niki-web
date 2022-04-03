@@ -1,0 +1,10 @@
+/* *** Style Sheet for InfluencersFilter only for mobile *********************************** */
+
+@media screen and (max-width: 766px) {	
+	.searchForm .mobile {
+		display: block;
+	}
+	 .tablet {
+		display: none;
+	}
+}
